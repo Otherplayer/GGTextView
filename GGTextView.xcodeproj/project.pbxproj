@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639D27341BA01E4400A1D4BA /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 639D27331BA01E4400A1D4BA /* NSString+Category.m */; settings = {ASSET_TAGS = (); }; };
 		63F3E61E1B9FE6D00026A5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E61D1B9FE6D00026A5BC /* main.m */; };
 		63F3E6211B9FE6D00026A5BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E6201B9FE6D00026A5BC /* AppDelegate.m */; };
 		63F3E6241B9FE6D00026A5BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E6231B9FE6D00026A5BC /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		63F3E62C1B9FE6D00026A5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F3E62A1B9FE6D00026A5BC /* LaunchScreen.storyboard */; };
 		63F3E6371B9FE6D00026A5BC /* GGTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E6361B9FE6D00026A5BC /* GGTextViewTests.m */; };
 		63F3E6421B9FE6D00026A5BC /* GGTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E6411B9FE6D00026A5BC /* GGTextViewUITests.m */; };
+		63F3E6511B9FE6EA0026A5BC /* GGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E6501B9FE6EA0026A5BC /* GGTextView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		639D27321BA01E4400A1D4BA /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		639D27331BA01E4400A1D4BA /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
 		63F3E6191B9FE6D00026A5BC /* GGTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F3E61D1B9FE6D00026A5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63F3E61F1B9FE6D00026A5BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		63F3E63D1B9FE6D00026A5BC /* GGTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F3E6411B9FE6D00026A5BC /* GGTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextViewUITests.m; sourceTree = "<group>"; };
 		63F3E6431B9FE6D00026A5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F3E64F1B9FE6EA0026A5BC /* GGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTextView.h; sourceTree = "<group>"; };
+		63F3E6501B9FE6EA0026A5BC /* GGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		639D27351BA0207300A1D4BA /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				63F3E64F1B9FE6EA0026A5BC /* GGTextView.h */,
+				63F3E6501B9FE6EA0026A5BC /* GGTextView.m */,
+			);
+			name = TextView;
+			sourceTree = "<group>";
+		};
 		63F3E6101B9FE6D00026A5BC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,7 @@
 		63F3E61B1B9FE6D00026A5BC /* GGTextView */ = {
 			isa = PBXGroup;
 			children = (
+				639D27351BA0207300A1D4BA /* TextView */,
 				63F3E61F1B9FE6D00026A5BC /* AppDelegate.h */,
 				63F3E6201B9FE6D00026A5BC /* AppDelegate.m */,
 				63F3E6221B9FE6D00026A5BC /* ViewController.h */,
@@ -110,6 +126,8 @@
 				63F3E62A1B9FE6D00026A5BC /* LaunchScreen.storyboard */,
 				63F3E62D1B9FE6D00026A5BC /* Info.plist */,
 				63F3E61C1B9FE6D00026A5BC /* Supporting Files */,
+				639D27321BA01E4400A1D4BA /* NSString+Category.h */,
+				639D27331BA01E4400A1D4BA /* NSString+Category.m */,
 			);
 			path = GGTextView;
 			sourceTree = "<group>";
@@ -271,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F3E6241B9FE6D00026A5BC /* ViewController.m in Sources */,
+				63F3E6511B9FE6EA0026A5BC /* GGTextView.m in Sources */,
 				63F3E6211B9FE6D00026A5BC /* AppDelegate.m in Sources */,
+				639D27341BA01E4400A1D4BA /* NSString+Category.m in Sources */,
 				63F3E61E1B9FE6D00026A5BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +518,7 @@
 				63F3E6481B9FE6D00026A5BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F3E6491B9FE6D00026A5BC /* Build configuration list for PBXNativeTarget "GGTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				63F3E64B1B9FE6D00026A5BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F3E64C1B9FE6D00026A5BC /* Build configuration list for PBXNativeTarget "GGTextViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				63F3E64E1B9FE6D00026A5BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
