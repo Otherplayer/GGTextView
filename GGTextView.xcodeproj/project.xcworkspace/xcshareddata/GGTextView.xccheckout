@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DAE68AD2-BB3E-439E-8B16-C0FAC461D315</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GGTextView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0AD492CE45EBD4592F9EE25D2DF4F9462BBCB394</key>
+		<string>https://github.com/Otherplayer/GGTextView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GGTextView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0AD492CE45EBD4592F9EE25D2DF4F9462BBCB394</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Otherplayer/GGTextView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0AD492CE45EBD4592F9EE25D2DF4F9462BBCB394</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0AD492CE45EBD4592F9EE25D2DF4F9462BBCB394</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GGTextView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

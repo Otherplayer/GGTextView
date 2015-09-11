@@ -10,7 +10,7 @@
 #import "NSString+Category.h"
 
 
-@interface GGTextView ()
+@interface GGTextView ()<UITextViewDelegate>
 @property (nonatomic, strong) UILabel *placeholderLabel;
 
 @end
