@@ -18,6 +18,7 @@
 
 @implementation GGTextView
 
+#pragma mark - life circle
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -29,10 +30,21 @@
     return self;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self addSubview:self.placeholderLabel];
+        self.delegate = self;
+        self.maxNumberLimited = LONG_MAX;
+    }
+    return self;
+}
+
 #pragma mark - delegate
 //通过判断表层TextView的内容来实现底层TextView的显示于隐藏
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
-    
+    NSLog(@"shouldChange%@",textView.text);
     if(![text isEqualToString:@""]){
         [self.placeholderLabel setHidden:YES];
     }
@@ -49,6 +61,7 @@
 }
 
 - (void)textViewDidChange:(UITextView *)textView{
+    NSLog(@"didChange%@",textView.text);
     if (textView.text.length > self.maxNumberLimited) {
         textView.text = [textView.text substringWithRange:NSMakeRange(0, self.maxNumberLimited)];
     }

@@ -13,8 +13,8 @@
 
 @interface GGTextView : UITextView
 
-@property (nonatomic, assign)  NSUInteger maxNumberLimited;
-@property (nonatomic, copy)    NSString *placeholder;
+@property (nonatomic, assign)  NSUInteger maxNumberLimited; //设置输入的最大字符数
+@property (nonatomic, copy)    NSString *placeholder;       //
 
 
 
